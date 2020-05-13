@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 255, 191);
+    font-weight: 400;
+}
+
+.box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+   
+}
+
+.buttonload {
+    background-color:blueviolet; 
+    border: none; 
+    color: white; 
+    padding: 20px 35px; 
+    font-size: 20px;
+    border-radius:6px;
+    border:1px solid blueviolet;
+    transition: 0.5s;
+    margin:0 15px;
+}
+.buttonload:hover{
+    color:blueviolet;
+    background-color: white;
+
+}
+
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
